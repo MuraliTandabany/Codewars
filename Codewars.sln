@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codewars", "Codewars\Codewars.csproj", "{BE9BDA18-6243-43FD-8C07-F941279E8F1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{91BC9586-2500-40A6-9F7D-7974402DC3A6}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		.hgignore = .hgignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codewars.Tests", "Codewars.Tests\Codewars.Tests.csproj", "{F97FF2CD-DC59-4754-B045-91A9425296EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE9BDA18-6243-43FD-8C07-F941279E8F1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE9BDA18-6243-43FD-8C07-F941279E8F1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE9BDA18-6243-43FD-8C07-F941279E8F1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE9BDA18-6243-43FD-8C07-F941279E8F1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F97FF2CD-DC59-4754-B045-91A9425296EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F97FF2CD-DC59-4754-B045-91A9425296EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F97FF2CD-DC59-4754-B045-91A9425296EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F97FF2CD-DC59-4754-B045-91A9425296EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {060B71EB-AA99-4A03-9793-1B05F17492EE}
+	EndGlobalSection
+EndGlobal
