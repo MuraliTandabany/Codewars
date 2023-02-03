@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option csharp_namespace = "RobotProvider";
+
+package robot;
+
+service Robot {
+  rpc GetRobots (GetRobotRequest) returns (GetRobotReply);
+  rpc GetRobotsStream (GetRobotRequest) returns (stream	RobotModel);
+}
+
+message GetRobotRequest {
+  
+}
+
+message GetRobotReply {
+	repeated RobotModel robots = 1;
+}
+
+message RobotModel {
+  string name = 1;
+	string status = 2;
+}
+
