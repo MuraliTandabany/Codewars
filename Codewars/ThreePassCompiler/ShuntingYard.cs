@@ -1,7 +1,7 @@
 ﻿namespace Codewars.ThreePassCompiler;
 
 /// <summary>
-/// https://en.wikipedia.org/wiki/Shunting_yard_algorithm
+/// Parse Expressions with operators https://en.wikipedia.org/wiki/Shunting_yard_algorithm
 /// </summary>
 public sealed class ShuntingYard
 {
@@ -25,7 +25,6 @@ public sealed class ShuntingYard
 		}
 		else
 			Output.Push(token);
-		Console.WriteLine("Consumed " + token + " Operators: " + string.Join(", ", operators) + " Output: " + string.Join(", ", Output));
 	}
 
 	private readonly Stack<string> operators = new();

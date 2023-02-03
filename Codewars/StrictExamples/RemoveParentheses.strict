@@ -1,0 +1,13 @@
+has text
+Remove Text
+	RemoveParentheses("example(unwanted thing)example").Remove is "exampleexample"
+	let parenthesesCount = Mutable(0)
+	let result = Mutable("")
+	for text
+		if value is "("
+			parenthesesCount = parenthesesCount + 1
+		if parenthesesCount is 0
+			result = result + value
+		if value is ")"
+			parenthesesCount = parenthesesCount - 1
+	result

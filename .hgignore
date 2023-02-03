@@ -157,3 +157,4 @@ DeltaEngine.All_NCrunchResults/*
 .vscode/
 NDependOut*
 NCrunchResults/*
+.cr

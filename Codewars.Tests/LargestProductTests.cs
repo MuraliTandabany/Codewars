@@ -26,9 +26,17 @@ public sealed class LargestProductTests
 		Assert.That(product.ToString(), Is.EqualTo("23514624000"));
 	}
 
-	[Category("Slow")]
 	[Test]
 	public void FindLargestProduct()
+	{
+		var product = new LargestProduct("62824586178664583591245665294765456828489128831426").FindLargestProduct();
+		Assert.That(product.ToString(), Is.EqualTo("71245459770757226566778880000000"));
+	}
+
+	//ncrunch: no coverage start
+	[Category("Slow")]
+	[Test]
+	public void FindLargestProductLargeInput()
 	{
 		var product = new LargestProduct(Data).FindLargestProduct();
 		Assert.That(product.ToString(), Is.EqualTo("2412446685431734624320887406251212800000000"));

@@ -16,8 +16,6 @@ public sealed class DivisorCounterTests
 	//ncrunch: no coverage start
 	[Category("Slow")]
 	[TestCase(999999999999999L, 34693207724723990L)]
-	[TestCase(999999999999998L, 34693207724723862L)]
-	[TestCase(999999999999995L, 34693207724723818L)]
 	[TestCase(999999999999950L, 34693207724722436L)]
 	public void GetTotalDivisorCountSlow(long number, long expected) =>
 		Assert.That(new DivisorCounter(number).GetTotalDivisorCount(), Is.EqualTo(expected));

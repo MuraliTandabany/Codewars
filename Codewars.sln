@@ -12,7 +12,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.hgignore = .hgignore
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codewars.Tests", "Codewars.Tests\Codewars.Tests.csproj", "{F97FF2CD-DC59-4754-B045-91A9425296EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codewars.Tests", "Codewars.Tests\Codewars.Tests.csproj", "{F97FF2CD-DC59-4754-B045-91A9425296EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Codewars.DataStructure", "Codewars.DataStructure", "{7451E335-FFBA-4841-A2BA-122D362FCB27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructure", "DataStructures\DataStructure.csproj", "{454AE3B4-D862-4309-ADF2-9E5A343397F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructure.Tests", "DataStructure.Tests\DataStructure.Tests.csproj", "{4A0F9E83-3F7A-4A92-A57E-9250399CA6F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsAndDelegates", "EventsAndDelegates\EventsAndDelegates.csproj", "{4A84DD6D-BFDA-4DFF-9C45-5B4319C5A4A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsAndDelegates.Tests", "EventsAndDelegates.Tests\EventsAndDelegates.Tests.csproj", "{962BE767-8559-41C8-B953-BA4601F7F898}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,9 +38,29 @@ Global
 		{F97FF2CD-DC59-4754-B045-91A9425296EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F97FF2CD-DC59-4754-B045-91A9425296EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F97FF2CD-DC59-4754-B045-91A9425296EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{454AE3B4-D862-4309-ADF2-9E5A343397F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{454AE3B4-D862-4309-ADF2-9E5A343397F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{454AE3B4-D862-4309-ADF2-9E5A343397F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{454AE3B4-D862-4309-ADF2-9E5A343397F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A0F9E83-3F7A-4A92-A57E-9250399CA6F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A0F9E83-3F7A-4A92-A57E-9250399CA6F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A0F9E83-3F7A-4A92-A57E-9250399CA6F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A0F9E83-3F7A-4A92-A57E-9250399CA6F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A84DD6D-BFDA-4DFF-9C45-5B4319C5A4A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A84DD6D-BFDA-4DFF-9C45-5B4319C5A4A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A84DD6D-BFDA-4DFF-9C45-5B4319C5A4A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A84DD6D-BFDA-4DFF-9C45-5B4319C5A4A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{962BE767-8559-41C8-B953-BA4601F7F898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{962BE767-8559-41C8-B953-BA4601F7F898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{962BE767-8559-41C8-B953-BA4601F7F898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{962BE767-8559-41C8-B953-BA4601F7F898}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{454AE3B4-D862-4309-ADF2-9E5A343397F7} = {7451E335-FFBA-4841-A2BA-122D362FCB27}
+		{4A0F9E83-3F7A-4A92-A57E-9250399CA6F9} = {7451E335-FFBA-4841-A2BA-122D362FCB27}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {060B71EB-AA99-4A03-9793-1B05F17492EE}
